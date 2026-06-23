@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+runs/
+data/
+checkpoints/
+*.pt
+*.pth
+*.npz
+.DS_Store
+.pytest_cache/
+activeem.egg-info/

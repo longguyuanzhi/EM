@@ -1,0 +1,317 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 117,
+    "sha256_16": "59db65fce320993e"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 586,
+    "sha256_16": "4a0dfc1ecea02b2e"
+  },
+  {
+    "path": "Makefile",
+    "bytes": 586,
+    "sha256_16": "5686a5b1a7efeb99"
+  },
+  {
+    "path": "README.md",
+    "bytes": 5031,
+    "sha256_16": "defbcada4a0a9169"
+  },
+  {
+    "path": "activeem/__init__.py",
+    "bytes": 446,
+    "sha256_16": "3c346c555a5b4241"
+  },
+  {
+    "path": "activeem/__pycache__/__init__.cpython-313.pyc",
+    "bytes": 542,
+    "sha256_16": "8eec1fa01daa1109"
+  },
+  {
+    "path": "activeem/__pycache__/acquisition.cpython-313.pyc",
+    "bytes": 9119,
+    "sha256_16": "d7c0eb3258b8928c"
+  },
+  {
+    "path": "activeem/__pycache__/active_loop.cpython-313.pyc",
+    "bytes": 12455,
+    "sha256_16": "d1ea360513ec091e"
+  },
+  {
+    "path": "activeem/__pycache__/benchmarks.cpython-313.pyc",
+    "bytes": 13926,
+    "sha256_16": "634b9519fba5cf28"
+  },
+  {
+    "path": "activeem/__pycache__/data.cpython-313.pyc",
+    "bytes": 4633,
+    "sha256_16": "c7ba4e47c10bb8d1"
+  },
+  {
+    "path": "activeem/__pycache__/encoding.cpython-313.pyc",
+    "bytes": 3947,
+    "sha256_16": "1127499e32de5910"
+  },
+  {
+    "path": "activeem/__pycache__/losses.cpython-313.pyc",
+    "bytes": 6056,
+    "sha256_16": "cc1d55ccddaf0430"
+  },
+  {
+    "path": "activeem/__pycache__/metrics.cpython-313.pyc",
+    "bytes": 4021,
+    "sha256_16": "e1189b73195e15dd"
+  },
+  {
+    "path": "activeem/__pycache__/models.cpython-313.pyc",
+    "bytes": 8548,
+    "sha256_16": "e2912c9aa17e56ab"
+  },
+  {
+    "path": "activeem/__pycache__/optimize.cpython-313.pyc",
+    "bytes": 2592,
+    "sha256_16": "0bd6fff61d67cf50"
+  },
+  {
+    "path": "activeem/__pycache__/plotting.cpython-313.pyc",
+    "bytes": 2219,
+    "sha256_16": "950298292c1f20d0"
+  },
+  {
+    "path": "activeem/__pycache__/solver.cpython-313.pyc",
+    "bytes": 4180,
+    "sha256_16": "02eb86b0a85c07f9"
+  },
+  {
+    "path": "activeem/__pycache__/uncertainty.cpython-313.pyc",
+    "bytes": 5566,
+    "sha256_16": "57501f338bc72b00"
+  },
+  {
+    "path": "activeem/__pycache__/utils.cpython-313.pyc",
+    "bytes": 3225,
+    "sha256_16": "79f351091fa5b8f8"
+  },
+  {
+    "path": "activeem/acquisition.py",
+    "bytes": 5574,
+    "sha256_16": "92d386939d92cb63"
+  },
+  {
+    "path": "activeem/active_loop.py",
+    "bytes": 7354,
+    "sha256_16": "bde804ab2e32d745"
+  },
+  {
+    "path": "activeem/benchmarks.py",
+    "bytes": 8432,
+    "sha256_16": "7601953874ca4db0"
+  },
+  {
+    "path": "activeem/data.py",
+    "bytes": 2321,
+    "sha256_16": "cd42832b4cfa53cf"
+  },
+  {
+    "path": "activeem/encoding.py",
+    "bytes": 1886,
+    "sha256_16": "6c1acf1f8cbd971f"
+  },
+  {
+    "path": "activeem/losses.py",
+    "bytes": 3359,
+    "sha256_16": "5b84b614c7353ba6"
+  },
+  {
+    "path": "activeem/metrics.py",
+    "bytes": 1936,
+    "sha256_16": "00fc1c0a2f85a23f"
+  },
+  {
+    "path": "activeem/models.py",
+    "bytes": 4153,
+    "sha256_16": "f3493ffee57ceb5d"
+  },
+  {
+    "path": "activeem/optimize.py",
+    "bytes": 1404,
+    "sha256_16": "871b4209d68fe0c3"
+  },
+  {
+    "path": "activeem/plotting.py",
+    "bytes": 885,
+    "sha256_16": "bf4e26736296a24c"
+  },
+  {
+    "path": "activeem/solver.py",
+    "bytes": 2149,
+    "sha256_16": "263ff64fefd1fd7f"
+  },
+  {
+    "path": "activeem/uncertainty.py",
+    "bytes": 2759,
+    "sha256_16": "c89020598cbe4582"
+  },
+  {
+    "path": "activeem/utils.py",
+    "bytes": 1238,
+    "sha256_16": "efea225ca34f0fa9"
+  },
+  {
+    "path": "configs/activeem_default.yaml",
+    "bytes": 420,
+    "sha256_16": "b8f6ff05af06d6bd"
+  },
+  {
+    "path": "configs/coupler.yaml",
+    "bytes": 1131,
+    "sha256_16": "38b92406bed42705"
+  },
+  {
+    "path": "configs/filter.yaml",
+    "bytes": 902,
+    "sha256_16": "57e9c8ce8ec4c426"
+  },
+  {
+    "path": "configs/resonator.yaml",
+    "bytes": 938,
+    "sha256_16": "f9a27fe761803ceb"
+  },
+  {
+    "path": "docs/artifact_appendix.md",
+    "bytes": 938,
+    "sha256_16": "6bb28d633822b3c0"
+  },
+  {
+    "path": "docs/rebuttal_tables.md",
+    "bytes": 726,
+    "sha256_16": "4bb3c7ab19f817d6"
+  },
+  {
+    "path": "docs/reproducibility_checklist.md",
+    "bytes": 612,
+    "sha256_16": "77484fc04a0a2eab"
+  },
+  {
+    "path": "docs/solver_integration.md",
+    "bytes": 903,
+    "sha256_16": "74f40c8490c66616"
+  },
+  {
+    "path": "environment.yml",
+    "bytes": 219,
+    "sha256_16": "e48b8f0789565958"
+  },
+  {
+    "path": "examples/__pycache__/quickstart.cpython-313.pyc",
+    "bytes": 1432,
+    "sha256_16": "b292842c6bc671f8"
+  },
+  {
+    "path": "examples/quickstart.py",
+    "bytes": 870,
+    "sha256_16": "8a779d9243485fcb"
+  },
+  {
+    "path": "pyproject.toml",
+    "bytes": 634,
+    "sha256_16": "f0b55d8e8ba19090"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 115,
+    "sha256_16": "2271b89edc2e7e68"
+  },
+  {
+    "path": "scripts/__pycache__/evaluate.cpython-313.pyc",
+    "bytes": 1757,
+    "sha256_16": "67b4d3e433b6c6c4"
+  },
+  {
+    "path": "scripts/__pycache__/generate_benchmark.cpython-313.pyc",
+    "bytes": 1568,
+    "sha256_16": "6304cef609c0f808"
+  },
+  {
+    "path": "scripts/__pycache__/optimize_design.cpython-313.pyc",
+    "bytes": 2091,
+    "sha256_16": "cc546400de681a73"
+  },
+  {
+    "path": "scripts/__pycache__/reproduce_tables.cpython-313.pyc",
+    "bytes": 2780,
+    "sha256_16": "037ed223ac2b680a"
+  },
+  {
+    "path": "scripts/__pycache__/run_active_learning.cpython-313.pyc",
+    "bytes": 2595,
+    "sha256_16": "0c7d89056cebb497"
+  },
+  {
+    "path": "scripts/__pycache__/run_baselines.cpython-313.pyc",
+    "bytes": 1928,
+    "sha256_16": "fc738aeaddaeabf5"
+  },
+  {
+    "path": "scripts/evaluate.py",
+    "bytes": 777,
+    "sha256_16": "af3e1eb54d40dab5"
+  },
+  {
+    "path": "scripts/generate_benchmark.py",
+    "bytes": 790,
+    "sha256_16": "fd754a613a10bd6f"
+  },
+  {
+    "path": "scripts/optimize_design.py",
+    "bytes": 1235,
+    "sha256_16": "3294bdbc4e3cd85c"
+  },
+  {
+    "path": "scripts/reproduce_tables.py",
+    "bytes": 1566,
+    "sha256_16": "488b23b614f5b779"
+  },
+  {
+    "path": "scripts/run_active_learning.py",
+    "bytes": 1479,
+    "sha256_16": "18acc856d0a33285"
+  },
+  {
+    "path": "scripts/run_baselines.py",
+    "bytes": 1042,
+    "sha256_16": "2ea0ee15e2f2f099"
+  },
+  {
+    "path": "tests/__pycache__/test_acquisition.cpython-313.pyc",
+    "bytes": 1539,
+    "sha256_16": "86e7d17963b239cf"
+  },
+  {
+    "path": "tests/__pycache__/test_physics_loss.cpython-313.pyc",
+    "bytes": 791,
+    "sha256_16": "3e3b79bc3fafe68d"
+  },
+  {
+    "path": "tests/__pycache__/test_smoke.cpython-313.pyc",
+    "bytes": 1100,
+    "sha256_16": "d56cbe28fa2e75c7"
+  },
+  {
+    "path": "tests/test_acquisition.py",
+    "bytes": 714,
+    "sha256_16": "936921ac802ac8c4"
+  },
+  {
+    "path": "tests/test_physics_loss.py",
+    "bytes": 311,
+    "sha256_16": "7a041c32aa0dd31f"
+  },
+  {
+    "path": "tests/test_smoke.py",
+    "bytes": 709,
+    "sha256_16": "cdd0af23dc21ecd1"
+  }
+]

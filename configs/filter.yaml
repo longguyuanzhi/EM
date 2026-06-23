@@ -1,0 +1,27 @@
+benchmark: filter
+structure: two-pole microstrip bandpass filter
+material:
+  substrate: Rogers RO4003C-like
+  eps_r: 3.55
+  loss_tangent: 0.0027
+  height_mm: 0.813
+  copper_thickness_mm: 0.035
+frequency:
+  start_ghz: 1.8
+  stop_ghz: 3.2
+  points: 201
+variables:
+  - {name: L1, meaning: First resonator-section length, range: [15.0, 19.0], unit: mm}
+  - {name: L2, meaning: Second resonator-section length, range: [14.0, 18.0], unit: mm}
+  - {name: g12, meaning: Inter-resonator coupling gap, range: [0.20, 1.20], unit: mm}
+  - {name: Wf, meaning: Feed-line width, range: [1.40, 2.80], unit: mm}
+  - {name: sf, meaning: Feed tap/offset distance, range: [0.30, 1.50], unit: mm}
+active_learning:
+  initial_samples: 50
+  batch_size: 10
+  final_samples: 150
+  candidate_pool: 5000
+  stop_validation_mae: 0.020
+responses:
+  spectral_ports: [S11, S21]
+  scalar_targets: [f0, bandwidth_3db, insertion_loss_db]

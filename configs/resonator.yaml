@@ -1,0 +1,27 @@
+benchmark: resonator
+structure: rectangular substrate-integrated/cavity resonator
+material:
+  substrate: dielectric cavity substrate
+  eps_r_range: [3.38, 3.75]
+  loss_tangent_range: [0.002, 0.004]
+  conductor: finite-conductivity copper
+frequency:
+  start_ghz: 4.0
+  stop_ghz: 8.0
+  points: 401
+variables:
+  - {name: Lc, meaning: Cavity length, range: [18.0, 26.0], unit: mm}
+  - {name: Wc, meaning: Cavity width, range: [12.0, 20.0], unit: mm}
+  - {name: ls, meaning: Slot length, range: [4.0, 9.0], unit: mm}
+  - {name: ws, meaning: Slot width, range: [0.20, 1.20], unit: mm}
+  - {name: of, meaning: Feed offset, range: [1.0, 5.0], unit: mm}
+  - {name: eps_r, meaning: Effective dielectric constant, range: [3.38, 3.75], unit: none}
+active_learning:
+  initial_samples: 60
+  batch_size: 10
+  final_samples: 180
+  candidate_pool: 6000
+  stop_validation_mae: 0.022
+responses:
+  spectral_ports: [S11]
+  scalar_targets: [f0, Q, min_S11_db]

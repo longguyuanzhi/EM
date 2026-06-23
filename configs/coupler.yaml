@@ -1,0 +1,30 @@
+benchmark: coupler
+structure: four-port branch-line/directional coupler
+material:
+  substrate: Rogers RO4350B-like
+  eps_r: 3.48
+  loss_tangent: 0.0037
+  height_mm: 0.762
+  copper_thickness_mm: 0.035
+frequency:
+  start_ghz: 2.0
+  stop_ghz: 4.0
+  points: 201
+variables:
+  - {name: Lm1, meaning: Main-line length 1, range: [15.0, 22.0], unit: mm}
+  - {name: Lm2, meaning: Main-line length 2, range: [15.0, 22.0], unit: mm}
+  - {name: Wm, meaning: Main-line width, range: [0.80, 2.40], unit: mm}
+  - {name: Lb1, meaning: Branch-line length 1, range: [10.0, 18.0], unit: mm}
+  - {name: Lb2, meaning: Branch-line length 2, range: [10.0, 18.0], unit: mm}
+  - {name: Wb, meaning: Branch-line width, range: [0.50, 2.00], unit: mm}
+  - {name: gc, meaning: Coupling gap, range: [0.15, 1.00], unit: mm}
+  - {name: tf, meaning: Feed taper length, range: [0.50, 3.00], unit: mm}
+active_learning:
+  initial_samples: 60
+  batch_size: 10
+  final_samples: 170
+  candidate_pool: 6000
+  stop_validation_mae: 0.021
+responses:
+  spectral_ports: [S11, S21, S31, S41]
+  scalar_targets: [coupling_db, isolation_db, insertion_loss_db, phase_imbalance_deg]

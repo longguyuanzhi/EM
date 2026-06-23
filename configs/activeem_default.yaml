@@ -1,0 +1,26 @@
+seed: 0
+model:
+  type: fno
+  width: 64
+  modes: 16
+  layers: 4
+  dropout: 0.05
+training:
+  epochs: 80
+  batch_size: 32
+  learning_rate: 0.001
+  lambda_phy: 0.1
+  lambda_reg: 0.0
+  ensemble_size: 3
+  mc_samples: 4
+  device: cpu
+acquisition:
+  alpha: 0.50
+  beta: 0.25
+  gamma: 0.25
+  k_neighbors: 8
+  residual_weight: 0.5
+  diversity_eta: 0.7
+  diversity_threshold: 0.05
+  safe_delta: 0.05
+  safe_quantile_fallback: 0.90

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "activeem"
+version = "0.1.0"
+description = "Active surrogate modeling artifact for frequency-domain EM simulation."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Anonymous"}]
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.9",
+  "pandas>=1.5",
+  "pyyaml>=6.0",
+  "matplotlib>=3.6",
+  "scikit-learn>=1.2",
+  "torch>=2.0",
+  "tqdm>=4.64",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["activeem*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
